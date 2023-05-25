@@ -1,0 +1,28 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 12rem !important;
+    max-height: 5rem !important;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    color:white ;
+    /* justify-items: center; */
+    align-items: center;
+
+}
+
+.header-menu>li{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-menu>li:hover{
+    color: var(--blue)
+}
