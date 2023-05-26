@@ -171,39 +171,8 @@
     width: 16rem;
 }
 
-/* .calories{
-    display:flex;
-    gap:2rem;
-    background-color: var(--caloryCard);
-    border-radius: 5px;
-    padding: 1rem;
-    width: fit-content;
-    position: absolute;
-    top: 32rem;
-    right:38rem;
-} */
-
-/* .calories>img{
-    width: 3rem;
-}
-
-.calories>div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.calories>div>:nth-child(1){
-    color: var(--gray);
-}
-.calories>div>:nth-child(2){
-    color: var(--gray);
-    font-size: 1.5rem;
-    color: white;
-} */
 
 .heart-calories{
-    /* display: flex; */
     flex-direction: column;
     position: absolute;
     right:4rem;
@@ -236,11 +205,9 @@
     color:var(--gray);
     text-align: center;
     margin: auto auto;
-
 }
 
 .caloriess>span:nth-child(3){
-    
     color:white;
     font-size: 1.5rem;
     text-align: center;
