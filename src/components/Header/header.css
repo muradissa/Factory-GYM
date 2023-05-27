@@ -1,6 +1,6 @@
 .header{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .logo{
@@ -15,12 +15,15 @@
     color:white ;
     /* justify-items: center; */
     align-items: center;
+    margin: auto auto;;
 
 }
 
 .header-menu>li{
     cursor: pointer;
     transition: 0.3s;
+    margin-left: 10px;;
+    margin-right: 10px;
 }
 
 .header-menu>li:hover{
