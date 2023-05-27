@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import GymPlans from './components/GymPlans/GymPlans';
 import Hero from './components/Hero/Hero';
 import Programs from './components/Programs/Programs';
@@ -15,6 +16,7 @@ function App() {
           <Results/>
           <Schedule/>
           <GymPlans/>
+          <Footer/>
     </div>
   );
 }
