@@ -14,10 +14,12 @@ import chart from '../../assets/chart.gif';
 function Hero() {
   return (
      <>
+      {/* <Header/> */}
+
      <div className='hero' style={{background:hero_background}}>
         <div className="left-h">
             {/* Navbar */}
-            <Header/>
+            {/* <Header/> */}
             
             <div className="the-best-ad">
               <div></div>

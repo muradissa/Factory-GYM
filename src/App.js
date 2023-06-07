@@ -6,10 +6,14 @@ import Programs from './components/Programs/Programs';
 import Reasons from './components/Reasons/Reasons';
 import Results from './components/Results/Results';
 import Schedule from './components/Schedule/Schedule';
+import Header from './components/Header/Header';
+
 function App() {
   return (
     <div className="App">
           {/* <span style={{color: 'white'}}>Subscribe Zainkeepscode</span> */}
+          <Header/>
+          
           <Hero/>
           <Programs/>
           <Reasons/>
