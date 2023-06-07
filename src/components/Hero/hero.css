@@ -20,7 +20,10 @@
 .right-h{
     flex:1;
     position: relative;
-    /* background-color: var(--blue); */
+    
+    /*
+    background:  url('../../assets/blue-lines.png');
+    mix-blend-mode: color-burn;*/
 }
 
 .the-best-ad{

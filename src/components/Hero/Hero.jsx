@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import hero_image4 from '../../assets/hero_image4.png';
 import hero_image_back from '../../assets/hero_image_back.png';
 import hero_background from '../../assets/hero_background.jpg';
-import hero_image_back2 from '../../assets/bluee.png';
+// import hero_image_back2 from '../../assets/bluee.png';
 import Heart2 from '../../assets/heartt.gif';
 import chart from '../../assets/chart.gif';
 
@@ -25,13 +25,25 @@ function Hero() {
                 מכון כושר ברמת חול
               </span>
             </div>
-            <div className='hero-text'>
+            {/* <div className='hero-text'>
               <div>
                 <span className='stroke-text'>Shape </span>
                 <span> Your</span>
               </div>
               <div>
                 <span>Ideal body</span>
+              </div>
+              <div className='span'>
+                כאן נעזור לך לעצב ולבנות את הגוף האידיאלי שלך ולחיות את חייך במלואם
+              </div>
+            </div> */}
+            <div className='hero-text'>
+              <div>
+                <span className='stroke-text'>המקום המושלם </span>
+                <span> להשקפת</span>
+              </div>
+              <div>
+                <span> כושר ושיפור ביכולת הגופנית</span>
               </div>
               <div className='span'>
                 כאן נעזור לך לעצב ולבנות את הגוף האידיאלי שלך ולחיות את חייך במלואם
