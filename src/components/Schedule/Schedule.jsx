@@ -44,7 +44,7 @@ const Schedule = () => {
   ];
 
   return (
-    <div className='schedule'>
+    <div className='schedule' id='schedule'>
       <span className='stroke-text'>שעות עבודה</span>
       <div className="table-container">
         <table className="table">

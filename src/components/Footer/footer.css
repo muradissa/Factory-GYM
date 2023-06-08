@@ -1,7 +1,10 @@
 
 
 .footer {
-    background-color: #333333;
+    /* background-color: #333333; */
+    background-image: 
+    linear-gradient(270deg,  rgba(2,0,36,0.9)0%, rgba(0, 0, 0,0.9) 100%);
+
     color: #ffffff;
     padding: 40px 0;
     padding-bottom: 10px;
@@ -19,10 +22,12 @@
 .footer-column {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 10px;
     animation: fadeInUp 0.5s ease;
     transition: 0.4s;
+    gap:0.5rem;
 }
   
 .footer-column:not(:last-child) .vertical-line {

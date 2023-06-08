@@ -5,34 +5,53 @@ const GymPlans = () => {
   const plans = [
     {
       title: 'חד פעמי',
-      price: '₪39.99',
-      features: ['Access to gym facilities', 'Personalized workout plans'],
+      price: '₪49.99',
+      features: ['אימון חד פעמי'],
     },
     {
       title: 'חודש',
-      price: '₪249.99',
-      features: ['Access to gym facilities', 'Personalized workout plans', 'Group fitness classes'],
+      price: '₪299.99',
+      features: [
+         'תוכניות אימון אישיות',
+          'שיעורי כושר קבוצתיים'
+        ],
     },
     {
       title: 'חודשים 3',
-      price: '₪699.99',
-      features: ['Access to gym facilities', 'Personalized workout plans', 'Group fitness classes', 'One-on-one personal training'],
+      price: '₪799.99',
+      features: [
+        'תוכניות אימון אישיות',
+        'שיעורי כושר קבוצתיים',
+        'אימון אישי פרטני',
+      ],
     },
     {
       title: 'חצי שנה',
-      price: '₪1199.99',
-      features: ['Access to gym facilities', 'Personalized workout plans', 'Group fitness classes', 'One-on-one personal training', 'Access to all premium amenities'],
+      price: '₪1399.99',
+      features: [
+        'תוכניות אימון אישיות',
+        'שיעורי כושר קבוצתיים',
+        'אימון אישי פרטני',
+        'גישה לכל הסוגים המתקדמים של המוסד',
+      ],
     },
     {
       title: 'שנה',
-      price: '₪2199.99',
-      features: ['Access to gym facilities', 'Personalized workout plans', 'Group fitness classes', 'One-on-one personal training', 'Access to all premium amenities', 'Unlimited tanning sessions'],
+      price: '₪2499.99',
+      features: [
+        'תוכניות אימון אישיות',
+        'שיעורי כושר קבוצתיים',
+        'אימון אישי פרטני',
+        'גישה לכל הסוגים המתקדמים של המוסד',
+        'סשן שזוף בלתי מוגבל',
+      ],
     },
   ];
+  
 
   return (
     <>
-    <div className='subscription-header'>
+    <div className='subscription-header' id='prices'>
         <span className='stroke-text'>מחירים</span>
     </div>
     <div className="subscription-container">
@@ -46,7 +65,10 @@ const GymPlans = () => {
               <li key={index}>{feature}</li>
             ))}
           </ul>
-          <button className="subscribe-button">Subscribe</button>
+          <div style={{height:""}}>
+             <button className="subscribe-button">הרשמה</button>
+          </div>
+         
         </div>
       ))}
     </div></>

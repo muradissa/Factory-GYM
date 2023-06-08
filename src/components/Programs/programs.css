@@ -3,6 +3,8 @@
     flex-direction: column;
     gap:2rem;
     padding: 2rem;
+    padding-top: 12vh;
+
     min-height: 100vh;
 }
 

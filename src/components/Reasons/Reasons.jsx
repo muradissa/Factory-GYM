@@ -14,11 +14,12 @@ import tick from '../../assets/done-icon2.png';
 
 function Reasons() {
   return (
-    <div className='reasons-section' >
+    
+    <div className='reasons-section' id="whyus">
     <div className='reasons-header'>
            <span className='stroke-text'>למה אנחנו ?</span>
     </div>   
-    <div className='reasons' id="reasons">
+    <div className='reasons' >
             
         <br/>
         <div className='left-r'>

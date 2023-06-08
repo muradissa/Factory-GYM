@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import './results.css';
 
-import hero_background from '../../assets/hero_background.jpg';
+import Result0 from '../../assets/result0.jpg';
+// import Result1 from '../../assets/result1.png';
+// import Result2 from '../../assets/result2.jpg';
+import Result4 from '../../assets/result4.jpg';
+import Result5 from '../../assets/result5.jpg';
+
 
 const images = [
-    'https://example.com/image1.jpg',
-    'https://example.com/image2.jpg',
-    'https://example.com/image3.jpg',
-    'https://example.com/image4.jpg',
-    'https://example.com/image5.jpg',
-  ];
+  Result0,
+  Result4,
+  Result5,
+];
 
 // const Results = ({ images }) => {
 const Results = () => {
@@ -25,22 +28,28 @@ const Results = () => {
   };
 
   return (
-    <div className='results'>
+    <div className='results' id="results">
         <span className='stroke-text'>תוצאות</span>
 
         <div className="slider">
-            <div className="slider-wrapper" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
-                {images.map((image, index) => (
-                <div className="slide" key={index}>
-                    <img src={hero_background} alt={`Slide ${index}`} className="slide-image" />
+            <div className="slider-wrapper" style={{ transform: `translateX(${currentIndex * 100}%)` }}>
+                {/* {images.map((image, index) => ( */}
+                <div className="slide" key={0}>
+                    <img src={Result0} alt={`Slide ${0}`} className="slide-image" />
                 </div>
-                ))}
+                <div className="slide" key={1}>
+                    <img src={Result4} alt={`Slide ${1}`} className="slide-image" />
+                </div>
+                <div className="slide" key={2}>
+                    <img src={Result5} alt={`Slide ${2}`} className="slide-image" />
+                </div>
+                {/* ))} */}
             </div>
-            <button className="slider-button prev" onClick={prevSlide}>
-                &#10094;
+            <button className="slider-button prev" onClick={nextSlide}>
+                 &#10095;
             </button>
-            <button className="slider-button next" onClick={nextSlide}>
-                &#10095;
+            <button className="slider-button next" onClick={prevSlide}>
+            &#10094;
             </button>
         </div>
         <h2  className='results-footer-text'> תוצאות מדהימות בזמן קצר , מעקב צעד בצעד</h2>

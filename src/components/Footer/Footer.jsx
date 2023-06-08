@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="footer-icon">
             <FiDollarSign />
           </div>
-          <p className="footer-text">מחירים</p>
+          <p className="footer-text"> מחירים </p>
         </div>
         <div className="footer-column">
           <div className="footer-icon">
@@ -60,7 +60,10 @@ const Footer = () => {
               <FiInstagram />
             </a>
           </div>
-          <div className="footer-icon vertical-line" />
+          {/* <div className="footer-icon vertical-line" /> */}
+          </div><div className="footer-column">
+
+          
           <div className="footer-icon">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
               <FiFacebook />

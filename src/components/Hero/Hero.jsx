@@ -8,7 +8,7 @@ import herooo from '../../assets/herooo.gif';
 
 function Hero() {
   return (
-     <div className='hero-section'>
+     <div className='hero-section' id='home'>
      <div className='hero' style={{background:hero_background}}>
         <div className="left-h">
             <div className="the-best-ad">
