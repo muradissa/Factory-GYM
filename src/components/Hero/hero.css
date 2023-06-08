@@ -1,7 +1,10 @@
+.hero-section{
+    min-height: 90vh;
+}
 .hero{
     display: flex;
     justify-content: space-between;
-
+    margin-top:-50px ;
     /* background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(2,0,36,1) 100%); */
     /* background-image: url(../../assets/hero_background.jpg) ; */
     /* background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(2,0,36, 0.5)),
@@ -15,15 +18,14 @@
     display:flex;
     gap:2rem;
     flex-direction: column; 
+    z-index: 5;
+    height: 100%;
 }
 
 .right-h{
     flex:1;
     position: relative;
-    
-    /*
-    background:  url('../../assets/blue-lines.png');
-    mix-blend-mode: color-burn;*/
+
 }
 
 .the-best-ad{
@@ -74,9 +76,13 @@
 
 .figures{
     display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
     gap:5rem;
     margin: auto auto;
     text-align: center;
+    height: 30vh;
 
 }
 .figures>div{
@@ -93,83 +99,39 @@
     /* text-transform: uppercase; */
 }
 
-.hero-buttons{
-    display: flex;
-    gap:1rem;
-    font-weight: normal;
-}
 
-.hero-buttons>:nth-child(1){
-    color:white;
-    background-color: var(--blue);
-    width: 8rem; 
-}
-.hero-buttons>:nth-child(2){
-    color:white;
-    background-color: transparent;
-    width: 8rem; 
-    border:2px solid var(--blue);
-}
 
-.right-h>.btn{
-    position: absolute;
-    /* right: 3rem;*/
-    top:2rem; 
-    right:50%;
-    /* color: var(--gray); */
-    color: black;
 
-}
-
-.heart-rate{
+/* .heart-rate{
     display: flex;
     flex-direction: column;
     gap:1rem;
     background-color: var(--darkGrey); 
-    /* background-color: var(--darkGrey);  */
-    /* background-color:  rgba(2,0,36,0.5); */
-    /* width:fit-content; */
     max-width: 8rem;
     text-align: center;
     padding: 1rem;
     align-items: start;
     border-radius: 0.5rem;
-    /* position: absolute; */
-    /* right:4rem;
-    top:7rem; */
-    /* z-index: 1; */
-}
 
-/* .heart-rate>span:nth-of-type(1){
 } */
 
-.heart-rate>img{
-    width: 3.5rem;
-    margin: auto auto;;
-
-}
-.heart-rate>span:nth-child(2){
-    color:var(--gray);
-    text-align: center;
-    margin: auto auto;
-
-}
-
-.heart-rate>span:nth-child(3){
-    color:white;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: auto auto;
-
-}
 .hero-image{
     position: absolute;
-    top:10rem;
-    /* right: 8rem; */
-    width:30rem;
-    /* right:150%; */
-    left:100%;
+    top:8rem;
+    width:45rem;
+    left:50%;
     z-index: 1;
+}
+
+.home-page-img{
+    position: absolute;
+    top:8rem;
+    width:45rem;
+    height: 100%;
+    left:50%;
+    z-index: 0;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(2,0,36, 0.5)),
+     url('../../assets/hero_image4.png');  
 }
 
 .hero-image-back{
@@ -180,51 +142,48 @@
     width: 16rem;
 }
 
-
-.heart-calories{
-    flex-direction: column;
-    /* position: absolute; */
-    /* right:4rem; */
-    /* margin: auto auto; */
-    /* left:30%; */
-    
-    /* bottom: 0%; */
-    margin: auto auto;
-    margin-top: 7rem;
-    gap: 5rem;
-    width: 10rem;
-}
-
-.caloriess{
+.heart-calories2{
     display: flex;
-    margin-top: 3rem;
     flex-direction: column;
-    gap:1rem;
-    background-color: var(--darkGrey);
-    border-radius: 5px;
-    padding: 1rem;
-    width: fit-content;
-    max-width: 8rem;
+    width: 100%;
+    gap:3rem;
+} 
+.herooo {
+    justify-content: end;
+    width: 100%;
+
+}
+.herooo img{
+    /* margin: auto auto; */
+
+    width: 7rem;
+    left: 10%;
     position: absolute;
-    align-items: start;
-    border-radius: 0.5rem;
+}
+.heart-rate2 , .caloriess2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;;
 }
 
-.caloriess>img{
-    width: 3.5rem;
-    margin: auto auto;
+@media screen and (max-width: 1700px) {
+    .hero-image{
+        z-index: -1;;
+    }
 }
-
-.caloriess>span:nth-child(2){
-    color:var(--gray);
-    text-align: center;
-    margin: auto auto;
-}
-
-.caloriess>span:nth-child(3){
-    color:white;
-    font-size: 1.5rem;
-    text-align: center;
-    margin: auto auto;
-
+@media screen and (max-width: 1008px) {
+    .hero-section{
+        background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(2,0,36, 0.5)),
+        url('../../assets/hero_image4.png');  
+        background-repeat: no-repeat;
+    }
+    .right-h{
+        display: none;
+    }
+    .hero-image{
+        display: none;
+    }
+    .figures{
+        align-items: center;
+    }
 }

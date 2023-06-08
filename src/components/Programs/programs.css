@@ -3,6 +3,7 @@
     flex-direction: column;
     gap:2rem;
     padding: 2rem;
+    min-height: 100vh;
 }
 
 .programs-header{
@@ -13,6 +14,7 @@
     font-size: 3rem;
     justify-content: center;
     font-style: italic;
+    margin-bottom: 3rem;
     /* text-transform: uppercase; */
 }
 
@@ -66,7 +68,7 @@
 
 }
 .read-more>img{
-    width : 1rem;
+    width : 2rem;
 }
 .category:hover{
     background: rgb(63, 63, 63);
@@ -82,3 +84,45 @@
         margin: auto auto;
     }
   }
+
+
+/*******/
+  .moving-line {
+    width: 100%;
+    overflow: hidden;
+    margin: auto auto; 
+
+  }
+  
+  .image-container {
+    display: flex;
+    animation: slide 60s linear infinite;
+    gap:1rem;
+    /* margin: auto auto; 
+    align-items: end; */
+  }
+  
+  .moving-image {
+    width: auto;
+    height: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    /* align-items: center; */
+    
+
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(280%);
+    }
+    50% {
+        transform: translateX(-10%);
+      }
+    100% {
+      transform: translateX(280%);
+    }
+  }
+  

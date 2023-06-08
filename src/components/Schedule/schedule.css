@@ -1,5 +1,5 @@
 .schedule{
-  height: 90vh;
+  min-height: 100vh;
 
 }
 .schedule>span{
@@ -38,6 +38,7 @@
   td {
     padding: 20px;
     text-align: center;
+    -webkit-user-modify: read-write-plaintext-only;
   }
   
   th {
@@ -84,3 +85,14 @@
     font-size: 28px;
     
   } 
+
+
+@media screen and (max-width: 900px) {
+  .table-container {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    
+  }
+
+}

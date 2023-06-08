@@ -2,15 +2,12 @@ import React from 'react';
 import './reasons.css';
 
 import image1 from '../../assets/image1.png';
-import image2 from '../../assets/image2.png';
-import image3 from '../../assets/image3.png';
-import image4 from '../../assets/image4.png';
+// import image2 from '../../assets/image2.png';
+// import image3 from '../../assets/image3.png';
+// import image4 from '../../assets/image4.png';
 import image5 from '../../assets/r11.jpg';
 import image6 from '../../assets/r22.jpg';
 import image7 from '../../assets/r33.jpg';
-
-
-
 import hero_background from '../../assets/hero_background.jpg';
 // import tick from '../../assets/tick.png';
 import tick from '../../assets/done-icon2.png';
@@ -26,7 +23,7 @@ function Reasons() {
         <br/>
         <div className='left-r'>
             <img src={image1} alt=''/>
-            <img src={hero_background} alt=''/>
+            <img src={image5} alt=''/>
             <img src={image7} alt=''/>     
             <img src={image6} alt=''/>
         </div>
