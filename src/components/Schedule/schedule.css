@@ -31,7 +31,10 @@ th,
 td {
   padding: 20px;
   text-align: center;
-  -webkit-user-modify: read-write-plaintext-only;
+  /* -webkit-user-modify: read-write-plaintext-only; */
+  -webkit-user-modify: read-only;
+
+  content :false;
 }
 
 th {
@@ -45,6 +48,7 @@ tr{
   text-align: center;
   align-items: baseline;
   justify-content: center;
+  
 }
 
 tr:nth-child(even) {

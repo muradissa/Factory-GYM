@@ -162,6 +162,7 @@
     }
     .figures{
         align-items: center;
+        width: 90%;
     }
     .hero-text{
         font-size: 3.5rem;

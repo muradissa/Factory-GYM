@@ -16,7 +16,7 @@
     justify-content: center;
     font-style: italic;
   }
-  
+
   .subscription-card {
     width: 250px;
     padding: 20px;
@@ -77,3 +77,9 @@
     }
   }
   
+  @media screen and (max-width: 500px) {
+    .subscription-card {
+      width: 300px;
+      
+    }
+  }
