@@ -8,7 +8,7 @@ import image1 from '../../assets/image1.png';
 import image5 from '../../assets/r11.jpg';
 import image6 from '../../assets/r22.jpg';
 import image7 from '../../assets/r33.jpg';
-import hero_background from '../../assets/hero_background.jpg';
+// import hero_background from '../../assets/hero_background.jpg';
 // import tick from '../../assets/tick.png';
 import tick from '../../assets/done-icon2.png';
 

@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import './header.css';
 // import Logo from '../../assets/logoF.png';
-import Logo from '../../assets/icon2.jpg';
 
 
 function Header() {

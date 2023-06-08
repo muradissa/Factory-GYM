@@ -1,15 +1,13 @@
 import React from 'react'
 import './hero.css';
-import Header from '../Header/Header';
 import hero_image4 from '../../assets/hero_image4.png';
-import hero_background from '../../assets/hero_background.jpg';
 import herooo from '../../assets/herooo.gif';
 
 
 function Hero() {
   return (
      <div className='hero-section' id='home'>
-     <div className='hero' style={{background:hero_background}}>
+     <div className='hero' >
         <div className="left-h">
             <div className="the-best-ad">
               <div></div>

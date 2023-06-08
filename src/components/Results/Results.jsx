@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './results.css';
 
 import Result0 from '../../assets/result0.jpg';
-// import Result1 from '../../assets/result1.png';
-// import Result2 from '../../assets/result2.jpg';
+
 import Result4 from '../../assets/result4.jpg';
 import Result5 from '../../assets/result5.jpg';
 
