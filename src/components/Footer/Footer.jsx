@@ -75,7 +75,6 @@ const Footer = () => {
               <FiInstagram />
             </a>
           </div>
-          {/* <div className="footer-icon vertical-line" /> */}
           </div><div className="footer-column">
 
           

@@ -57,8 +57,8 @@ function Programs() {
                 </div>
             </div>
         </div>
+        
         <MovingLine/>
-
     </div>
   )
 }

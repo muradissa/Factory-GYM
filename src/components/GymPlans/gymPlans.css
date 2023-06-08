@@ -4,8 +4,8 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 5rem;
-    
   }
+
  .subscription-header {
   padding-top: 12vh;
     display: flex;
@@ -16,6 +16,7 @@
     justify-content: center;
     font-style: italic;
   }
+  
   .subscription-card {
     width: 250px;
     padding: 20px;

@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import './results.css';
-
 import Result0 from '../../assets/result0.jpg';
-
 import Result4 from '../../assets/result4.jpg';
 import Result5 from '../../assets/result5.jpg';
-
 
 const images = [
   Result0,
@@ -13,7 +10,6 @@ const images = [
   Result5,
 ];
 
-// const Results = ({ images }) => {
 const Results = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,7 +48,6 @@ const Results = () => {
             </button>
         </div>
         <h2  className='results-footer-text'> תוצאות מדהימות בזמן קצר , מעקב צעד בצעד</h2>
-        {/* <span className='results-footer-text'> תוצאות מדהימות בזמן קצר </span> */}
     </div>
   );
 };

@@ -51,27 +51,28 @@ const GymPlans = () => {
 
   return (
     <>
-    <div className='subscription-header' id='prices'>
-        <span className='stroke-text'>מחירים</span>
-    </div>
-    <div className="subscription-container">
-        
-      {plans.map((plan, index) => (
-        <div className="subscription-card" key={index}>
-          <h3 className="subscription-title">{plan.title}</h3>
-          <div className="subscription-price">{plan.price}</div>
-          <ul className="subscription-features">
-            {plan.features.map((feature, index) => (
-              <li key={index}>{feature}</li>
-            ))}
-          </ul>
-          <div style={{height:""}}>
-             <button className="subscribe-button">הרשמה</button>
+      <div className='subscription-header' id='prices'>
+          <span className='stroke-text'>מחירים</span>
+      </div>
+      <div className="subscription-container">
+          
+        {plans.map((plan, index) => (
+          <div className="subscription-card" key={index}>
+            <h3 className="subscription-title">{plan.title}</h3>
+            <div className="subscription-price">{plan.price}</div>
+            <ul className="subscription-features">
+              {plan.features.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+            <div style={{height:""}}>
+              <button className="subscribe-button">הרשמה</button>
+            </div>
+          
           </div>
-         
-        </div>
-      ))}
-    </div></>
+        ))}
+      </div>
+    </>
   );
 };
 
